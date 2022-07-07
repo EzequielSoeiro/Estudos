@@ -2,10 +2,10 @@
 public class TestaSistemaInterno {
 	public static void main(String[] args) {
 		Gerente gerente = new Gerente();
-		gerente.setSenha(2222);
+		gerente.setSenha(222222);
 		
-		SistemaInterno si = new SistemaInterno();
 		
-		si.autentica(gerente);
+		SistemaInterno sistema = new SistemaInterno();
+		sistema.autentica(gerente);
 	}
 }

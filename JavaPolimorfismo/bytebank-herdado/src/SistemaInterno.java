@@ -11,7 +11,7 @@ public class SistemaInterno {
 		if (igual) {
 			System.out.println("Seja bem vindo ao sistema!");
 		}else {
-			System.out.println("VocÃª nÃ£o tem autorizaÃ§Ã£o para entrar no sistema");
+			System.out.println("Com essa senha você não tem autorização para entrar no sistema interno!");
 		}
 	}
 }
