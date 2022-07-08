@@ -1,10 +1,10 @@
 
 public class Administrador extends Funcionario implements FuncionarioAutenticavel{
 
-	private AutenticavelUtil util;
+	private util util;
 	
 	public Administrador() {
-		this.util = new AutenticavelUtil();
+		this.util = new util();
 	}
 	
 	@Override

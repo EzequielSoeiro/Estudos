@@ -1,7 +1,10 @@
 public class Gerente extends Funcionario implements FuncionarioAutenticavel	 {
 
-	private AutenticavelUtil util;
+	private util util;
 	
+	public Gerente() {
+		this.util = new util();
+	}
 	
 	@Override
 	public double getBonificacao() {
